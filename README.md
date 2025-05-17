@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# AI Trading Bot for RWA Tokens XDC Decentralised Exchange🤖
 
-## Project info
+Welcome to the **AI Trading Bot Platform**, a fully autonomous trading system designed to trade **Real World Asset (RWA)** tokens on the **XDC Network's decentralised exchange (DEX)**. This AI-powered bot leverages market sentiment, data analytics, and a **multi-agent architecture** to manage portfolios, execute trades, and maximise returns with minimal human intervention.
 
-**URL**: https://lovable.dev/projects/71e824e0-7594-4807-841e-0a0681034935
+## 🚀 Project Overview
 
-## How can I edit this code?
+Real World Assets (RWAs) such as real estate, commodities, and bonds are making their way into the world of decentralised finance (DeFi). Managing these tokenised assets requires intelligence and precision. This project delivers a robust AI agent that:
 
-There are several ways of editing your application.
+- Analyses market trends and real-time data
+- Executes smart trades on XDC’s DEX
+- Optimises user portfolios for returns and risk
+- Monitors sentiment from financial news, forums, and social media
 
-**Use Lovable**
+> ⚙️ Example Credentials (for demonstration/testing purposes):
+> - **Email**: user@example.com  
+> - **Password**: password123
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/71e824e0-7594-4807-841e-0a0681034935) and start prompting.
+## 🧠 Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+### ✅ Multi-Agent AI Architecture
+- Uses a decentralised system of specialised AI agents that handle:
+  - Data ingestion and analysis
+  - Trading strategy optimisation
+  - Sentiment and news analysis
+  - Portfolio management and performance tuning
 
-**Use your preferred IDE**
+### 📊 AI-Powered Market Sentiment Analysis
+- Extracts insights from:
+  - Financial news
+  - Reddit, Twitter, and Telegram
+  - Market data and token discussion forums
+- Helps the system make smarter trading decisions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 📈 Autonomous Trading Execution
+- Fully integrates with XDC’s DEX for:
+  - Market orders
+  - Stop-loss triggers
+  - Limit orders
+- Continuously refines strategy using reinforcement learning
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔐 Secure Portfolio Management
+- Allocates user assets based on risk appetite
+- Rebalances regularly based on asset performance and volatility
 
-Follow these steps:
+### 📉 Tool Overload & Context Complexity Mitigation
+- Divides operations among task-specific agents to avoid bottlenecks
+- Ensures optimal performance without overwhelming any one process
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🏗️ Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Blockchain:** XDC Network, Web3.js / ethers.js
+- **AI/ML:** Python, TensorFlow, Transformers, Langchain
+- **Backend:** Flask / FastAPI
+- **Frontend:** React.js (Optional UI Panel)
+- **Database:** MongoDB / PostgreSQL
+- **Sentiment Analysis APIs:** Google NLP, Twitter API, NewsAPI
+- **Trading Logic:** Custom rule engine + Reinforcement Learning agents
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ Setup Instructions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/ai-rwa-trading-bot-xdc.git
+    cd ai-rwa-trading-bot-xdc
+    ```
 
-**Edit a file directly in GitHub**
+2. Create a virtual environment and activate it:
+    ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-**Use GitHub Codespaces**
+4. Setup `.env` file for API keys and credentials:
+    ```env
+    EMAIL=user@example.com
+    PASSWORD=password123
+    XDC_API_KEY=your_xdc_api_key
+    SENTIMENT_API_KEY=your_sentiment_api
+    ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+5. Run the application:
+    ```bash
+    python main.py
+    ```
 
-## What technologies are used for this project?
+## 🔒 Security Notes
 
-This project is built with:
+- **Never share your API keys or wallet credentials.**
+- Use environment variables and encrypted storage for sensitive data.
+- The demo credentials are for mock purposes only.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌍 Future Roadmap
 
-## How can I deploy this project?
+- 📡 Integrate real-time websocket data from XDC
+- 🧠 Improve natural language understanding for forum data
+- 💼 Offer RWA analytics dashboards for enterprise clients
+- 🪙 Token-based access control for user-tiered services
 
-Simply open [Lovable](https://lovable.dev/projects/71e824e0-7594-4807-841e-0a0681034935) and click on Share -> Publish.
+## 📬 Contact
 
-## Can I connect a custom domain to my Lovable project?
+Feel free to reach out with questions, suggestions, or collaboration interests!
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Developer**: Roshni Kumari  
+**Email**: roshni06k2004@gmail.com  
+**LinkedIn**: [linkedin.com/in/roshnikumari1](https://linkedin.com/in/roshnikumari1)  
+**GitHub**: [github.com/RSN601KRI](https://github.com/RSN601KRI)
