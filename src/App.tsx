@@ -12,6 +12,7 @@ import Dashboard from "./pages/Dashboard";
 import Trading from "./pages/Trading";
 import Portfolio from "./pages/Portfolio";
 import Analytics from "./pages/Analytics";
+import SentimentAnalysis from "./pages/SentimentAnalysis";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
@@ -37,6 +38,7 @@ const App = () => (
               <Route path="/trading" element={<Trading />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/analytics" element={<Analytics />} />
+              <Route path="/sentiment" element={<SentimentAnalysis />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
               <Route path="*" element={<NotFound />} />
